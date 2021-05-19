@@ -1,9 +1,54 @@
-.imagecap { 
+.full-story .col {
+	width:800px;
+	border:1px solid #ccc;
+	padding:20px;
+	margin:0 auto;
+  text-align:center;
+}
+
+.full-story p, .full-story ul, .full-story ol  {
+  text-align: left;
+  clear:left;
+}
+
+.imagecap {
   clear: left;
   font-style:italic;
+  padding:5px;
+  margin:5px;
   text-align:center;
-  } 
+}
+
+.imagecap img {
+  margin:0 auto;
+	padding:10px;
+	border:1px solid gray;
+}
+
+.imagecapright {
+  float: right;
+  width:30%;
+}
+
+.imagecapleft {
+  float: left;
+  width:30%;
+}
+
+.leftright {
+  width:45%!important;
+}
+
+.imagecap p {
+  text-align:center!important;
+}
 
 .blockquote {
   padding:0 20px;
+}
+
+footer {
+  padding-bottom:50px;
+  text-align:center;
+  width:100%;
 }

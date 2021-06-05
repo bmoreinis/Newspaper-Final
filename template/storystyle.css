@@ -3,6 +3,13 @@
   margin-top:25px;
 }
 
+.row img {
+  margin:1em auto;
+	padding:10px;
+	border:1px solid gray;
+  max-width:75%;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;

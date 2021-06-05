@@ -4,6 +4,22 @@ body {
   padding: 30px;
 }
 
+.col {
+  font-size:12pt;
+}
+
+.col p, .col li {
+  font-size:14pt;
+  text-align:left;
+}
+
+.row img {
+  margin:1em auto;
+	padding:10px;
+	border:1px solid gray;
+  max-width:75%;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -11,13 +27,12 @@ img {
 }
       
 body {
- background:url("background.jpg") no-repeat center top grey;
+ background:url("background.jpg") repeat-y center top grey;
 }
 
 div.col {
   background-color: white;
-  opacity: 0.8;
-  margin-top:-70px; 
+  opacity: 0.9;
 }
 div.content {
   opacity: 1;
@@ -27,9 +42,10 @@ div.content {
 .col h1 {
   padding-top: 1em;
 }
-h2, h3, h1 {
+h2, h3, h1,h4 {
   width:100%;
   text-align: center;
+  margin-bottom:1em;
 }
 
 img {

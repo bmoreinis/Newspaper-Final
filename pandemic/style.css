@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  border:1px solid black;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+      
+body {
+ background:url("background.jpg") no-repeat center top grey;
+}
+
+div.col {
+  background-color: white;
+  opacity: 0.8;
+  margin-top:-70px; 
+}
+div.content {
+  opacity: 1;
+  text-align: left;
+  padding:0 50px 25px 50px;
+}
+.col h1 {
+  padding-top: 1em;
+}
+h2, h3, h1 {
+  width:100%;
+  text-align: center;
+}
+
+img {
+  border:1px solid black;
+  padding:10px;
+  max-width:90%;
+}
+
+.imageborder {
+  width:auto;
+  margin:0 auto;
+  display:inline-block;
+  border:10px solid white;
+}
+
+.imageborder img {
+  margin:0 auto;
+	padding:15px;
+	border:2px solid black;
+}

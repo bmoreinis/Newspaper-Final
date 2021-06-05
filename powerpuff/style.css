@@ -1,0 +1,84 @@
+.Header{
+  color: white;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+.p1{
+  color: white;
+  text-align: center;
+  text-size: 15px;
+  text-indent: 10px;
+  word-break: break all;
+}
+.p2{
+  color: white;
+  text-align: center;
+  text-size: 12px;
+  text-indent: 10px;
+  word-wrap: break-word;
+}
+.p3{
+  color: white;
+  text-align: center;
+  text-size: 15px;
+  text-indent: 10px;
+  word-wrap: break-word;
+}
+.p3img{
+  float: left;
+  display: block;
+  color: lightgrey;
+  word-wrap: break-word;
+}
+.p4{
+  color: white;
+  text-align: center;
+  text-size: 15px;
+  text-indent: 10px;
+  word-wrap: break-word;
+}
+.p5{
+  color: white;
+  text-align: center;
+  text-size: 15px;
+  text-indent: 10px;
+  word-wrap: break-word;
+}
+.p6{
+  color: white;
+  text-align: center;
+  text-size: 15px;
+  text-indent: 10px;
+  word-wrap: break-word;
+}
+.p7{
+  color: white;
+  text-align: center;
+  text-size: 15px;
+  text-indent: 10px;
+  word-wrap: break-word;
+}
+.liveaction{
+  float: left;
+  display: block;
+  text-align: left;
+  text-sixe: 15px;
+}
+.PWG{
+  float: right;
+  display: block;
+  text-align: right;
+  text-size: 15px;
+}
+.fail{
+  color: white;
+  text-align: center;
+}
+.p3img{
+  display: block;
+  float: left;
+  display: block;
+  text-align: left;
+}

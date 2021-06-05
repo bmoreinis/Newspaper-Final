@@ -36,11 +36,16 @@ body{
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
-.Check{
-  text-align: center;
+
+.BLM {
+  display: block;
+  margin: auto;
 }
-.BLM{
- display: block;
-  margin-left: auto;
-  margin-right: auto;
+h1,h2,h3,h4 {
+  color:white;
+}
+
+.check {
+  text-align: center;
+  color:white;
 }

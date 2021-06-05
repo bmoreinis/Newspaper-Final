@@ -7,9 +7,11 @@
   font-size:12pt;
 }
 
-.col p {
+.col p, .col li {
   font-size:14pt;
+  text-align:left;
 }
+
 .row img {
   margin:1em auto;
 	padding:10px;
@@ -53,8 +55,6 @@
   text-align:center;
 }
 
-
-
 .imagecapright {
   float: right;
   width:30%;
@@ -76,4 +76,16 @@
 
 .blockquote {
   padding:0 20px;
+}
+
+h1,h2,h3,h4,h5 {
+  margin:1em auto;
+}
+.images {
+  width:100%;
+}
+.images img {
+  width:45%;
+  border:none;
+  display:inline-block;
 }

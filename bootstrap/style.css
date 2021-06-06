@@ -1,4 +1,14 @@
 /* Template Styling */
+body {
+  background-color:whitesmoke;
+}
+
+.container {
+  background-color:white;
+}
+.jumbotron {
+  border-bottom:1px solid #ccc;
+}
 main {
   margin-top: 25px;
 }
@@ -18,6 +28,9 @@ main {
   }
 }
 
+.btn {
+  float:right;
+}
 .row img {
   width:90%;
   margin:1em auto;
@@ -36,13 +49,56 @@ h1,h2,h3,h4 {
   text-align:center;
 }
 
+h3 {
+  padding-bottom:1em;
+}
+
 /* Row Styling */
 
 .row.first {
-  padding:20px 0;
-  margin-bottom:20px;
+  padding:20px 0 20px 0;
+  margin:20px -20;
+  background-color:beige;
 }
 
+.second .second {
+  border:1px solid turquoise;
+}
+
+.second .second .btn {
+  float:none;
+  margin:auto;
+}
+
+.third .first, .third .second {
+  background-color:lavender;
+}
+
+.third .third {
+  padding-left:40px;
+  padding-top:40px;
+  border:1px solid lavender;
+  font-size:16pt;
+}
+.third .second .btn {
+  float:left;
+}
+
+.fourth .second {
+  padding-top:20px;
+  background-color:black;
+  color:white;
+  text-align:center;
+}
+
+.fourth .second .centerbutton {
+  text-align:center;
+  width:100%;
+}
+
+.fifth h2 {
+  padding-top:1em;
+}
 .imagecap {
   clear: left;
   font-style:italic;
@@ -59,4 +115,15 @@ h1,h2,h3,h4 {
 .focus {
   border: 5px inset rgb(243, 4, 143);
   padding:10px;
+}
+
+.sixth .first {
+  padding:20px;
+}
+
+.sixth .second, .sixth .third {
+  background-color:gainsboro;
+}
+.centerbutton {
+  text-align:center;
 }

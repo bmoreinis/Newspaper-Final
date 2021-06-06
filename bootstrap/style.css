@@ -53,6 +53,23 @@ h3 {
   padding-bottom:1em;
 }
 
+#navbarsExampleDefault li {
+  text-align:center;
+  border:1px solid #F8F9FA;
+}
+#navbarsExampleDefault li:hover {
+  text-align:center;
+  border:1px solid black;
+}
+
+#navbarsExampleDefault li a {
+  font-weight:bold;
+}
+#navbarsExampleDefault li a:hover {
+  color:black;
+}
+
+
 /* Row Styling */
 
 .row.first {

@@ -69,6 +69,14 @@
   width:45%!important;
 }
 
+.imagecap {
+  clear: left;
+  font-style:italic;
+  padding:5px;
+  margin:5px;
+  text-align:center;
+}
+
 .imagecap p {
   text-align:center!important;
   font-style:italic;

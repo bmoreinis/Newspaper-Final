@@ -19,7 +19,8 @@ main {
 }
 
 .row img {
-  width:100%;
+  width:90%;
+  margin:1em auto;
 }
 
 .footer {
@@ -38,9 +39,24 @@ h1,h2,h3,h4 {
 /* Row Styling */
 
 .row.first {
-  border-top:1px solid #ccc;
-  border-bottom:1px solid #ccc;
   padding:20px 0;
   margin-bottom:20px;
 }
 
+.imagecap {
+  clear: left;
+  font-style:italic;
+  padding:5px;
+  margin:5px;
+  text-align:center;
+}
+
+.imagecap p {
+  text-align:center!important;
+  font-style:italic;
+}
+
+.focus {
+  border: 5px inset rgb(243, 4, 143);
+  padding:10px;
+}

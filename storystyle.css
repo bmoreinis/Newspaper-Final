@@ -86,8 +86,14 @@
   font-style:italic;
 }
 
-.blockquote {
+.blockquote, blockquote {
   padding:0 20px;
+  text-align:left!important;
+  font-style:italic;
+  font-size:+2;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:whitesmoke;
+  line-height:2;
 }
 
 h1,h2,h3,h4,h5 {

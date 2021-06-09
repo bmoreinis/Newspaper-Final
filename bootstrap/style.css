@@ -87,6 +87,12 @@ h3 {
   margin:auto;
 }
 
+.third .first {
+  padding-top:30px;
+}
+.third .first h2 {
+  margin-top:1em;
+}
 .third .first, .third .second {
   background-color:lavender;
 }
